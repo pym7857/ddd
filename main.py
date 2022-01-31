@@ -4,14 +4,14 @@ import pandas as pd
 df = pd.read_csv('./pool.csv')
 
 st.write('''
-# 풀빌라 리스트 
+# 😀풀빌라 리스트 
 ''')
 print(df)
 
 test = df.astype(str)
 st.dataframe(test)
 
-st.markdown('# 사진')
+st.markdown('# 😀사진')
 
 sunset_imgs = [
     './pics/IMG_3448.JPG', 
