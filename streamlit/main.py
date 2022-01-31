@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('./pool.xlsx')
+df = pd.read_csv('./pool.csv')
 
 st.write('''
 # 풀빌라 리스트 
