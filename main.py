@@ -1,9 +1,7 @@
 import streamlit as st
-import pandas as pd 
-from PIL import Image
-from pagination import paginator
+import pandas as pd
 
-df = pd.read_excel('./pool.xlsx')
+df = pd.read_csv('./pool.csv')
 
 st.write('''
 # 풀빌라 리스트 
